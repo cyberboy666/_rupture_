@@ -1,0 +1,718 @@
+EESchema Schematic File Version 4
+LIBS:rupter-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "rupter"
+Date "2020-10-27"
+Rev ""
+Comp "orginally designed by Karl Klomp"
+Comment1 "pcb by"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5F99B42C
+P 6850 2225
+F 0 "J2" H 6778 2463 50  0000 C CNN
+F 1 "rca" H 6778 2372 50  0000 C CNN
+F 2 "lib_fp:tht_rca_vertical" H 6850 2225 50  0001 C CNN
+F 3 " ~" H 6850 2225 50  0001 C CNN
+F 4 "mouser" H 6850 2225 50  0001 C CNN "Vendor"
+F 5 "490-RCJ-024" H 6850 2225 50  0001 C CNN "Sku"
+	1    6850 2225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2225 7425 2225
+$Comp
+L lib_sym:AD8072 U2
+U 1 1 5F9A1E18
+P 2925 4450
+F 0 "U2" H 2925 4817 50  0000 C CNN
+F 1 "AD8072" H 2925 4726 50  0000 C CNN
+F 2 "lib_fp:DIP-SOIC-8" H 2925 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 2925 4450 50  0001 C CNN
+F 4 "mouser" H 2925 4450 50  0001 C CNN "Vendor"
+F 5 "584-AD8072JNZ" H 2925 4450 50  0001 C CNN "Sku"
+	1    2925 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 1700 2300 1700
+$Comp
+L Device:R R1
+U 1 1 5F9C0A32
+P 3325 1975
+F 0 "R1" H 3395 2021 50  0000 L CNN
+F 1 "220" H 3395 1930 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3255 1975 50  0001 C CNN
+F 3 "~" H 3325 1975 50  0001 C CNN
+	1    3325 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 1700 3325 1700
+Wire Wire Line
+	3325 1700 3325 1825
+Wire Wire Line
+	2875 2000 2875 2125
+Wire Wire Line
+	2875 2125 3325 2125
+$Comp
+L Device:R R2
+U 1 1 5F9C1861
+P 2875 2275
+F 0 "R2" H 2945 2321 50  0000 L CNN
+F 1 "1k" H 2945 2230 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2805 2275 50  0001 C CNN
+F 3 "~" H 2875 2275 50  0001 C CNN
+	1    2875 2275
+	1    0    0    -1  
+$EndComp
+Connection ~ 2875 2125
+$Comp
+L power:GND #PWR0101
+U 1 1 5F9C211A
+P 2875 2425
+F 0 "#PWR0101" H 2875 2175 50  0001 C CNN
+F 1 "GND" H 2880 2252 50  0000 C CNN
+F 2 "" H 2875 2425 50  0001 C CNN
+F 3 "" H 2875 2425 50  0001 C CNN
+	1    2875 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5F9C27B5
+P 2300 1950
+F 0 "C7" H 2415 1996 50  0000 L CNN
+F 1 "0.47u" H 2415 1905 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 2338 1800 50  0001 C CNN
+F 3 "~" H 2300 1950 50  0001 C CNN
+	1    2300 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1800 2300 1700
+Connection ~ 2300 1700
+Wire Wire Line
+	2300 1700 2575 1700
+$Comp
+L power:GND #PWR0102
+U 1 1 5F9C328F
+P 2300 2100
+F 0 "#PWR0102" H 2300 1850 50  0001 C CNN
+F 1 "GND" H 2305 1927 50  0000 C CNN
+F 2 "" H 2300 2100 50  0001 C CNN
+F 3 "" H 2300 2100 50  0001 C CNN
+	1    2300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5F9C35F5
+P 1625 2075
+F 0 "#PWR0103" H 1625 1825 50  0001 C CNN
+F 1 "GND" H 1630 1902 50  0000 C CNN
+F 2 "" H 1625 2075 50  0001 C CNN
+F 3 "" H 1625 2075 50  0001 C CNN
+	1    1625 2075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 2075 1625 1900
+Wire Wire Line
+	1625 1900 1625 1800
+Connection ~ 1625 1900
+Wire Wire Line
+	3700 1550 3700 1700
+Wire Wire Line
+	3700 1700 3325 1700
+Connection ~ 3325 1700
+$Comp
+L lib_sym:AD8072 U2
+U 3 1 5F9C563A
+P 4925 1800
+F 0 "U2" H 4883 1846 50  0000 L CNN
+F 1 "AD8072" H 4883 1755 50  0000 L CNN
+F 2 "lib_fp:DIP-SOIC-8" H 4925 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 4925 1800 50  0001 C CNN
+	3    4925 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5F9C7662
+P 4825 2100
+F 0 "#PWR0104" H 4825 1850 50  0001 C CNN
+F 1 "GND" H 4830 1927 50  0000 C CNN
+F 2 "" H 4825 2100 50  0001 C CNN
+F 3 "" H 4825 2100 50  0001 C CNN
+	1    4825 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F9CF863
+P 6850 2425
+F 0 "#PWR0105" H 6850 2175 50  0001 C CNN
+F 1 "GND" H 6855 2252 50  0000 C CNN
+F 2 "" H 6850 2425 50  0001 C CNN
+F 3 "" H 6850 2425 50  0001 C CNN
+	1    6850 2425
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 4350 0    50   Input ~ 0
+video_in
+NoConn ~ 1925 4975
+Text GLabel 2225 5100 0    50   Input ~ 0
+cap
+Wire Wire Line
+	1550 4350 1925 4350
+Connection ~ 1925 4350
+Wire Wire Line
+	1925 4350 2625 4350
+NoConn ~ 2775 4925
+$Comp
+L power:GND #PWR0108
+U 1 1 5FA09B10
+P 2775 5325
+F 0 "#PWR0108" H 2775 5075 50  0001 C CNN
+F 1 "GND" H 2780 5152 50  0000 C CNN
+F 2 "" H 2775 5325 50  0001 C CNN
+F 3 "" H 2775 5325 50  0001 C CNN
+	1    2775 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0110
+U 1 1 5FA1D2FC
+P 4250 1425
+F 0 "#PWR0110" H 4250 1325 50  0001 C CNN
+F 1 "+VDC" H 4250 1700 50  0000 C CNN
+F 2 "" H 4250 1425 50  0001 C CNN
+F 3 "" H 4250 1425 50  0001 C CNN
+	1    4250 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+VDC #PWR0111
+U 1 1 5FA20E65
+P 4825 1425
+F 0 "#PWR0111" H 4825 1325 50  0001 C CNN
+F 1 "+VDC" H 4825 1700 50  0000 C CNN
+F 2 "" H 4825 1425 50  0001 C CNN
+F 3 "" H 4825 1425 50  0001 C CNN
+	1    4825 1425
+	1    0    0    -1  
+$EndComp
+Text GLabel 7900 2125 2    50   Input ~ 0
+video_in
+Wire Wire Line
+	7900 2125 7825 2125
+Text GLabel 7900 2325 2    50   Input ~ 0
+video_out
+Text GLabel 8950 3200 0    50   Input ~ 0
+cap
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5FA528E2
+P 9325 3200
+F 0 "SW1" H 9325 3485 50  0000 C CNN
+F 1 "SPDT" H 9325 3394 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 3200 50  0001 C CNN
+F 3 "~" H 9325 3200 50  0001 C CNN
+F 4 "tayda" H 3825 1325 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 1325 50  0001 C CNN "Sku"
+	1    9325 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 5FA562CE
+P 9325 3800
+F 0 "SW2" H 9325 4085 50  0000 C CNN
+F 1 "SPDT" H 9325 3994 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 3800 50  0001 C CNN
+F 3 "~" H 9325 3800 50  0001 C CNN
+F 4 "tayda" H 3825 1325 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 1325 50  0001 C CNN "Sku"
+	1    9325 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5FA59294
+P 9625 4475
+F 0 "C3" V 9850 4475 50  0000 C CNN
+F 1 "0.1uf" V 9759 4475 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9625 4475 50  0001 C CNN
+F 3 "~" H 9625 4475 50  0001 C CNN
+	1    9625 4475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW3
+U 1 1 5FA5929E
+P 9325 4375
+F 0 "SW3" H 9325 4660 50  0000 C CNN
+F 1 "SPDT" H 9325 4569 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 4375 50  0001 C CNN
+F 3 "~" H 9325 4375 50  0001 C CNN
+F 4 "tayda" H 3825 1325 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 1325 50  0001 C CNN "Sku"
+	1    9325 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5FA592A8
+P 9625 5075
+F 0 "C4" V 9396 5075 50  0000 C CNN
+F 1 "0.68u" V 9487 5075 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9625 5075 50  0001 C CNN
+F 3 "~" H 9625 5075 50  0001 C CNN
+	1    9625 5075
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW4
+U 1 1 5FA592B2
+P 9325 4975
+F 0 "SW4" H 9325 5260 50  0000 C CNN
+F 1 "SPDT" H 9325 5169 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 4975 50  0001 C CNN
+F 3 "~" H 9325 4975 50  0001 C CNN
+F 4 "tayda" H 3825 1325 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 1325 50  0001 C CNN "Sku"
+	1    9325 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 3200 9125 3200
+Wire Wire Line
+	9125 3200 9125 3800
+Connection ~ 9125 3200
+Connection ~ 9125 3800
+Wire Wire Line
+	9125 3800 9125 4375
+Connection ~ 9125 4375
+Wire Wire Line
+	9125 4375 9125 4975
+Wire Wire Line
+	9725 3300 9875 3300
+Connection ~ 9875 3300
+Wire Wire Line
+	9875 3300 9875 3200
+Wire Wire Line
+	9725 3900 9875 3900
+Connection ~ 9875 3900
+Wire Wire Line
+	9875 3900 9875 3300
+Wire Wire Line
+	9725 4475 9875 4475
+Connection ~ 9875 4475
+Wire Wire Line
+	9875 4475 9875 3900
+Wire Wire Line
+	9725 5075 9875 5075
+Wire Wire Line
+	9875 5075 9875 4475
+NoConn ~ 9525 3100
+NoConn ~ 9525 3700
+NoConn ~ 9525 4275
+NoConn ~ 9525 4875
+Text Notes 1625 1150 0    79   ~ 0
+POWER_SUPPLY
+Text Notes 1700 3975 0    79   ~ 0
+SIGNAL_PROCESSING
+Text Notes 6075 975  0    79   ~ 0
+SIGNAL_ROUTER
+Text Notes 8725 2700 0    79   ~ 0
+CAPACITANCE_SELECTOR
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FAD2320
+P 5000 1425
+F 0 "#FLG0101" H 5000 1500 50  0001 C CNN
+F 1 "PWR_FLAG" V 5000 1553 50  0000 L CNN
+F 2 "" H 5000 1425 50  0001 C CNN
+F 3 "~" H 5000 1425 50  0001 C CNN
+	1    5000 1425
+	0    1    1    0   
+$EndComp
+Connection ~ 4825 1425
+Wire Wire Line
+	4825 1425 4825 1500
+Wire Wire Line
+	4825 1425 5000 1425
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FAD6C5F
+P 5025 2100
+F 0 "#FLG0102" H 5025 2175 50  0001 C CNN
+F 1 "PWR_FLAG" V 5025 2228 50  0000 L CNN
+F 2 "" H 5025 2100 50  0001 C CNN
+F 3 "~" H 5025 2100 50  0001 C CNN
+	1    5025 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2225 4825 2225 5100
+Wire Wire Line
+	3300 4450 3225 4450
+Connection ~ 3300 4450
+Wire Wire Line
+	4700 4825 3575 4825
+Connection ~ 4700 4825
+Wire Wire Line
+	4700 4700 4700 4825
+Wire Wire Line
+	3575 4825 3575 4650
+Wire Wire Line
+	6100 4825 4700 4825
+NoConn ~ 5150 4400
+Wire Wire Line
+	5725 4175 5725 4050
+$Comp
+L Device:CP_Small C8
+U 1 1 5FA2C3AD
+P 5725 4275
+F 0 "C8" H 5813 4321 50  0000 L CNN
+F 1 "2.2uf" H 5813 4230 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5725 4275 50  0001 C CNN
+F 3 "~" H 5725 4275 50  0001 C CNN
+	1    5725 4275
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 4825 2    50   Input ~ 0
+video_out
+Wire Wire Line
+	3750 4650 3575 4650
+$Comp
+L power:+VDC #PWR0109
+U 1 1 5FA1C8A1
+P 5725 4050
+F 0 "#PWR0109" H 5725 3950 50  0001 C CNN
+F 1 "+VDC" H 5725 4325 50  0000 C CNN
+F 2 "" H 5725 4050 50  0001 C CNN
+F 3 "" H 5725 4050 50  0001 C CNN
+	1    5725 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4550 5300 4550
+$Comp
+L Device:R_POT RV4
+U 1 1 5FA1880F
+P 5300 4400
+F 0 "RV4" V 5093 4400 50  0000 C CNN
+F 1 "1k_pot" V 5184 4400 50  0000 C CNN
+F 2 "lib_fp:pot_vertical_9mm" H 5300 4400 50  0001 C CNN
+F 3 "~" H 5300 4400 50  0001 C CNN
+F 4 "mouser" H 3900 1450 50  0001 C CNN "Vendor"
+F 5 "652-PTV09A4030FA102" H 3900 1450 50  0001 C CNN "Sku"
+	1    5300 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 4550 4550 4550
+$Comp
+L Device:R_POT RV3
+U 1 1 5FA1614A
+P 4700 4550
+F 0 "RV3" V 4493 4550 50  0000 C CNN
+F 1 "1k_pot" V 4584 4550 50  0000 C CNN
+F 2 "lib_fp:pot_vertical_9mm" H 4700 4550 50  0001 C CNN
+F 3 "~" H 4700 4550 50  0001 C CNN
+F 4 "mouser" H 3900 1450 50  0001 C CNN "Vendor"
+F 5 "652-PTV09A4030FA102" H 3900 1450 50  0001 C CNN "Sku"
+	1    4700 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4450 3300 4450
+$Comp
+L lib_sym:AD8072 U2
+U 2 1 5FA0B230
+P 4050 4550
+F 0 "U2" H 4050 4917 50  0000 C CNN
+F 1 "AD8072" H 4050 4826 50  0000 C CNN
+F 2 "lib_fp:DIP-SOIC-8" H 4050 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 4050 4550 50  0001 C CNN
+	2    4050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2625 4550 2625 4825
+Wire Wire Line
+	3300 4825 2625 4825
+Wire Wire Line
+	3300 4450 3300 4825
+Connection ~ 2225 4825
+Wire Wire Line
+	2225 4825 2075 4825
+Connection ~ 2625 4825
+Wire Wire Line
+	2625 4825 2225 4825
+Wire Wire Line
+	1925 4350 1925 4675
+$Comp
+L power:GND #PWR0107
+U 1 1 5FB45CE5
+P 10250 3325
+F 0 "#PWR0107" H 10250 3075 50  0001 C CNN
+F 1 "GND" H 10255 3152 50  0000 C CNN
+F 2 "" H 10250 3325 50  0001 C CNN
+F 3 "" H 10250 3325 50  0001 C CNN
+	1    10250 3325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 3325 10250 3200
+Wire Wire Line
+	9875 3200 10250 3200
+Wire Wire Line
+	2625 4825 2625 5075
+Wire Wire Line
+	2775 5325 2775 5225
+Wire Wire Line
+	5450 4400 5725 4400
+Wire Wire Line
+	5725 4400 5725 4375
+$Comp
+L Regulator_Linear:LM317_3PinPackage U1
+U 1 1 5FA21671
+P 2875 1700
+F 0 "U1" H 2875 1942 50  0000 C CNN
+F 1 "LM317_3PinPackage" H 2875 1851 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_HandSolder" H 2875 1950 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 2875 1700 50  0001 C CNN
+F 4 "tayda" H 2875 1700 50  0001 C CNN "Vendor"
+F 5 "A-500" H 2875 1700 50  0001 C CNN "Sku"
+	1    2875 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1700 2300 1250
+Wire Wire Line
+	2300 1250 3700 1250
+Wire Wire Line
+	3700 1250 3700 1350
+Wire Wire Line
+	5025 2100 4825 2100
+Connection ~ 4825 2100
+Text Notes 3025 1050 0    50   ~ 0
+select raw or regulated voltage
+$Comp
+L Switch:SW_SPDT SW9
+U 1 1 60633210
+P 3900 1450
+F 0 "SW9" H 3900 1735 50  0000 C CNN
+F 1 "SPDT" H 3900 1644 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 3900 1450 50  0001 C CNN
+F 3 "~" H 3900 1450 50  0001 C CNN
+F 4 "tayda" H 3900 1450 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3900 1450 50  0001 C CNN "Sku"
+	1    3900 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1425 4250 1450
+Wire Wire Line
+	4250 1450 4100 1450
+$Comp
+L Connector:Barrel_Jack_Switch J3
+U 1 1 5F9BE86A
+P 1325 1800
+F 0 "J3" H 1382 2117 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1382 2026 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1375 1760 50  0001 C CNN
+F 3 "~" H 1375 1760 50  0001 C CNN
+F 4 "tayda" H 1325 1800 50  0001 C CNN "Vendor"
+F 5 "A-4118" H 1325 1800 50  0001 C CNN "Sku"
+	1    1325 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5F9EA2E5
+P 2775 5075
+F 0 "RV2" H 2706 5121 50  0000 R CNN
+F 1 "1k_pot" H 2706 5030 50  0000 R CNN
+F 2 "lib_fp:pot_vertical_9mm" H 2775 5075 50  0001 C CNN
+F 3 "~" H 2775 5075 50  0001 C CNN
+F 4 "mouser" H 3900 1450 50  0001 C CNN "Vendor"
+F 5 "652-PTV09A4030FA102" H 3900 1450 50  0001 C CNN "Sku"
+	1    2775 5075
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5F9E02C7
+P 1925 4825
+F 0 "RV1" H 1856 4871 50  0000 R CNN
+F 1 "1k_pot" H 1856 4780 50  0000 R CNN
+F 2 "lib_fp:pot_vertical_9mm" H 1925 4825 50  0001 C CNN
+F 3 "~" H 1925 4825 50  0001 C CNN
+F 4 "mouser" H 3900 1450 50  0001 C CNN "Vendor"
+F 5 "652-PTV09A4030FA102" H 3900 1450 50  0001 C CNN "Sku"
+	1    1925 4825
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60CAD11A
+P 9625 3300
+F 0 "C1" V 9850 3300 50  0000 C CNN
+F 1 "0.01uf" V 9759 3300 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9625 3300 50  0001 C CNN
+F 3 "~" H 9625 3300 50  0001 C CNN
+	1    9625 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60CADBD5
+P 9625 3900
+F 0 "C2" V 9850 3900 50  0000 C CNN
+F 1 "0.047uf" V 9759 3900 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9625 3900 50  0001 C CNN
+F 3 "~" H 9625 3900 50  0001 C CNN
+	1    9625 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW8
+U 1 1 60CD5DE1
+P 7625 2225
+F 0 "SW8" H 7625 2510 50  0000 C CNN
+F 1 "SPDT" H 7625 2419 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 7625 2225 50  0001 C CNN
+F 3 "~" H 7625 2225 50  0001 C CNN
+F 4 "tayda" H 7625 2225 50  0001 C CNN "Vendor"
+F 5 "A-659" H 7625 2225 50  0001 C CNN "Sku"
+	1    7625 2225
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7900 2325 7825 2325
+Wire Wire Line
+	7875 1500 7800 1500
+$Comp
+L Switch:SW_SPDT SW7
+U 1 1 60CE0F3F
+P 7600 1400
+F 0 "SW7" H 7600 1685 50  0000 C CNN
+F 1 "SPDT" H 7600 1594 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 7600 1400 50  0001 C CNN
+F 3 "~" H 7600 1400 50  0001 C CNN
+F 4 "tayda" H 7600 1400 50  0001 C CNN "Vendor"
+F 5 "A-659" H 7600 1400 50  0001 C CNN "Sku"
+	1    7600 1400
+	1    0    0    1   
+$EndComp
+Text GLabel 7875 1500 2    50   Input ~ 0
+video_out
+Wire Wire Line
+	7875 1300 7800 1300
+Text GLabel 7875 1300 2    50   Input ~ 0
+video_in
+$Comp
+L power:GND #PWR0106
+U 1 1 5F9D1D06
+P 6850 1600
+F 0 "#PWR0106" H 6850 1350 50  0001 C CNN
+F 1 "GND" H 6855 1427 50  0000 C CNN
+F 2 "" H 6850 1600 50  0001 C CNN
+F 3 "" H 6850 1600 50  0001 C CNN
+	1    6850 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1400 7400 1400
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 5F9A0AF0
+P 6850 1400
+F 0 "J1" H 6778 1638 50  0000 C CNN
+F 1 "rca" H 6778 1547 50  0000 C CNN
+F 2 "lib_fp:tht_rca_vertical" H 6850 1400 50  0001 C CNN
+F 3 " ~" H 6850 1400 50  0001 C CNN
+F 4 "mouser" H 6850 1400 50  0001 C CNN "Vendor"
+F 5 "490-RCJ-024" H 6850 1400 50  0001 C CNN "Sku"
+	1    6850 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 60D009CA
+P 9625 5650
+F 0 "C5" V 9850 5650 50  0000 C CNN
+F 1 "1uf" V 9759 5650 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 9625 5650 50  0001 C CNN
+F 3 "~" H 9625 5650 50  0001 C CNN
+	1    9625 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_SPDT SW5
+U 1 1 60D009D6
+P 9325 5550
+F 0 "SW5" H 9325 5835 50  0000 C CNN
+F 1 "SPDT" H 9325 5744 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 5550 50  0001 C CNN
+F 3 "~" H 9325 5550 50  0001 C CNN
+F 4 "tayda" H 3825 2500 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 2500 50  0001 C CNN "Sku"
+	1    9325 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW6
+U 1 1 60D009EC
+P 9325 6150
+F 0 "SW6" H 9325 6435 50  0000 C CNN
+F 1 "SPDT" H 9325 6344 50  0000 C CNN
+F 2 "lib_fp:spdt_slide_switch_small_tayda" H 9325 6150 50  0001 C CNN
+F 3 "~" H 9325 6150 50  0001 C CNN
+F 4 "tayda" H 3825 2500 50  0001 C CNN "Vendor"
+F 5 "A-659" H 3825 2500 50  0001 C CNN "Sku"
+	1    9325 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 4975 9125 5550
+Connection ~ 9125 5550
+Wire Wire Line
+	9125 5550 9125 6150
+Wire Wire Line
+	9725 5650 9875 5650
+Connection ~ 9875 5650
+Wire Wire Line
+	9875 5650 9875 5075
+Wire Wire Line
+	9725 6250 9875 6250
+Wire Wire Line
+	9875 6250 9875 5650
+NoConn ~ 9525 5450
+NoConn ~ 9525 6050
+Connection ~ 9125 4975
+Connection ~ 9875 5075
+$Comp
+L Device:CP_Small C6
+U 1 1 60D046F1
+P 9625 6250
+F 0 "C6" V 9825 6200 50  0000 L CNN
+F 1 "100uf" V 9725 6150 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9625 6250 50  0001 C CNN
+F 3 "~" H 9625 6250 50  0001 C CNN
+	1    9625 6250
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
