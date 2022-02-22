@@ -1,16 +1,15 @@
 EESchema Schematic File Version 4
-LIBS:rupter-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "rupter"
-Date "2020-10-27"
-Rev ""
+Title "_rupture_"
+Date "2022-02-22"
+Rev "v0_2"
 Comp "orginally designed by Karl Klomp"
-Comment1 "pcb by"
-Comment2 ""
+Comment1 "pcb by cyberboy666"
+Comment2 "CC-BY-SA"
 Comment3 ""
 Comment4 ""
 $EndDescr
