@@ -9,7 +9,7 @@
 
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/_rupture_/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
-- the pcb gerber files for the lastest version can be found [here](/hardware/rupture_latest.zip)
+- the pcb gerber files for the lastest version can be found [here](/hardware/gerber_latest.zip)
 - consider [donating](https://liberapay.com/underscores/) to the underscores project to help us continue creating for the commons
 
 ## features
@@ -72,7 +72,7 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 
 # ordering pcbs
 
-you can support this project by buying individual pcbs from the [shop](https://underscores.shop). if you would rather have pcbs fabricated from gerbers directly the file you need is [here](/hardware/rupture_latest.zip) 
+you can support this project by buying individual pcbs from the [shop](https://underscores.shop). if you would rather have pcbs fabricated from gerbers directly the file you need is [here](/hardware/gerber_latest.zip) 
 
 - i get my pcbs fabricated from [jlcpcb](https://cart.jlcpcb.com/quote) - 5 is the minumum order per design
 - upload the zip file with the `add gerber file` button
