@@ -4,15 +4,12 @@
 
 ![image](https://user-images.githubusercontent.com/12017938/155052362-16561705-3511-47c2-86ef-be1389ea9c0f.png)
 
-
-[description coming soon]
-
 - this circuit is distributed by __UNDERSCORES__ - _an open video hardware label_ : it is available to purchase - as a pcb, kit or assembled unit - at [underscores.shop](https://underscores.shop/_rupture_/)
 - the schematic for the circuit can be found [here](/hardware/schematic.pdf)
 - the pcb gerber files for the lastest version can be found [here](/hardware/gerber_latest.zip)
 - consider [donating](https://liberapay.com/underscores/) to the underscores project to help us continue creating for the commons
 
-## features
+## description
 
 ... ???
 
