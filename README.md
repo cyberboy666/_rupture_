@@ -19,6 +19,25 @@
 
 [video coming soon]
 
+# background
+
+<details><summary>background</summary>
+  
+this project is an adaption of a video glitch processing circuit created orginally by [Karl Klomp](https://www.karlklomp.nl/) known as __the rupter__. this and many other interesting historic video hardware glitch machines can be seen on [web-archive](https://web.archive.org/web/20150206171254/https://www.karlklomp.nl/) of their site. pictures, schematic and videos of the original circuit are below:
+  
+[![image](https://user-images.githubusercontent.com/12017938/97462093-add4c000-193e-11eb-9234-b89c1700fb6e.png)](https://vimeo.com/13738566)
+
+
+![image](https://user-images.githubusercontent.com/12017938/97461494-1b342100-193e-11eb-9746-ab868f613323.png)
+
+![image](https://user-images.githubusercontent.com/12017938/97461894-79610400-193e-11eb-89d4-a3764f4bab7b.png)
+
+![image](https://user-images.githubusercontent.com/12017938/97349019-3ac04080-188f-11eb-9a8b-2f2abbbc492c.png)
+
+my adaption of it started as an exercise in my _intro to kicad_ workshop for VIDICON_2020 - i ended up getting the boards fab'd and found it to be a very useful device in my studio - worthy of sharing futher!
+  
+</details>
+
 # documentation
 
 this project is fully _open-source hardware_ - all the files required to build it are included in this repo for free. if you have the time and/or skill you can contribute back by collaborating on / testing new designs, improving these docs, making demo videos/other creative content etc. you can also support the project financially by [donating directing](https://liberapay.com/underscores/), or purchasing through the [web shop](https://underscores.shop).
