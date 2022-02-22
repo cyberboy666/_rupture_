@@ -19,7 +19,7 @@
 
 [video coming soon]
 
-# background
+## background
 
 <details><summary>background</summary>
   
@@ -34,7 +34,7 @@ this project is an adaption of a video glitch processing circuit created orginal
 
 ![image](https://user-images.githubusercontent.com/12017938/97349019-3ac04080-188f-11eb-9a8b-2f2abbbc492c.png)
 
-my adaption of it started as an exercise in my _intro to kicad_ workshop for VIDICON_2020 - i ended up getting the boards fab'd and found it to be a very useful device in my studio - worthy of sharing futher!
+my adaption of it started as an exercise in my [_intro to kicad_](https://github.com/cyberboy666/kicad_video_workshop) workshop for VIDICON_2020 - i ended up getting the boards fab'd and found it to be a very useful device in my studio - worthy of sharing futher!
   
 </details>
 
