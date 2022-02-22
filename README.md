@@ -2,7 +2,8 @@
 
 ### simple analog video glitch circuit - adapted from a karl klomp design
 
-[image coming soon]
+![image](https://user-images.githubusercontent.com/12017938/155052362-16561705-3511-47c2-86ef-be1389ea9c0f.png)
+
 
 [description coming soon]
 
