@@ -130,5 +130,5 @@ Please get in touch if you are interested in hosting a workshop !
 ![image](https://user-images.githubusercontent.com/12017938/152463166-0fea052b-1eed-4f63-a59d-55c360bfea76.png)
 
 
-thanks to ......., to Bastien Lavaud for circuit advice, always. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
+thanks to Karl Klomp for inpiring me and so many others, to Bastien Lavaud for circuit advice, always. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
 
