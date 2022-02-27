@@ -11,7 +11,7 @@
 
 ## description
 
-... ???
+this circuit takes any composite video signal as input and destroys the signal in many interesting and unpredictable ways - due to the nature of analog video glitches for best results you should output this signal directly to a crt tv.
 
 ## demo video
 
