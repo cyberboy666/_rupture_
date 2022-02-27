@@ -60,6 +60,8 @@ take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to se
 - after importing select _add to cart_
 - __NOTE:__ the minimum value for resistors is 10, so you may need to modify these values to add to cart (or if they are already modified here you will need to see the  full_bom for actual part QTY) 
 
+- OPTIONAL: it is a good idea to add some dip-ic sockets and 2.54pin headers/sockets to your tayda order if you dont have them around already
+  
 ## import into mouser
 
 - go to [mouser bom tool](https://nz.mouser.com/Bom/) and click _upload spreadsheet_
