@@ -113,7 +113,7 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
-[coming soon]
+![image](https://user-images.githubusercontent.com/12017938/156061444-3c6de3a7-d6e1-41e5-bc37-5e18eaab0bf1.png)
 
 </details>
 
