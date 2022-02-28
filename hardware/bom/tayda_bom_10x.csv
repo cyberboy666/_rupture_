@@ -1,0 +1,14 @@
+sku,qty,ref,val
+A-962,10,C1 ,0.01uf,tayda
+A-552,10,C2 ,0.047uf,tayda
+A-214,10,C3 ,0.1uf,tayda
+A-1482,10,C4 ,0.68u,tayda
+A-321,10,C5 ,1uf,tayda
+A-1063,10,C6 ,100uf,tayda
+A-142,10,C7 ,0.47u,tayda
+A-4510,10,C8 ,2.2uf,tayda
+A-4118,10,J3 ,Barrel_Jack_Switch,tayda
+A-2246,10,R1 ,220,tayda
+A-2200,10,R2 ,1k,tayda
+A-659,90,SW1 SW2 SW3 SW4 SW5 SW6 SW7 SW8 SW9 ,SPDT,tayda
+A-500,10,U1 ,LM317_3PinPackage,tayda

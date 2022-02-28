@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/timcaldwell/projects/_rupture_/hardware/_rupture_.sch</source>
+    <date>Mon 28 Feb 2022 13:01:06</date>
+    <tool>Eeschema 5.1.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>_rupture_</title>
+        <company>orginally designed by Karl Klomp</company>
+        <rev>v0_2</rev>
+        <date>2022-02-22</date>
+        <source>_rupture_.sch</source>
+        <comment number="1" value="pcb by cyberboy666"/>
+        <comment number="2" value="CC-BY-SA"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>rca</value>
+      <footprint>lib_fp:tht_rca_vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Sku">490-RCJ-024</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F99B42C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AD8072</value>
+      <footprint>lib_fp:DIP-SOIC-8</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm358.pdf</datasheet>
+      <fields>
+        <field name="Sku">584-AD8072JNZ</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="lib_sym" part="AD8072" description="Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A1E18</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C0A32</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C1861</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.47u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9C27B5</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA528E2</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA562CE</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA59294</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA5929E</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.68u</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA592A8</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA592B2</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA2C3AD</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>1k_pot</value>
+      <footprint>lib_fp:pot_vertical_9mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">652-PTV09A4030FA102</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1880F</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>1k_pot</value>
+      <footprint>lib_fp:pot_vertical_9mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">652-PTV09A4030FA102</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA1614A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM317_3PinPackage</value>
+      <footprint>Package_TO_SOT_THT:TO-92L_HandSolder</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm317.pdf</datasheet>
+      <fields>
+        <field name="Sku">A-500</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="LM317_3PinPackage" description="1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA21671</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60633210</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-4118</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BE86A</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>1k_pot</value>
+      <footprint>lib_fp:pot_vertical_9mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">652-PTV09A4030FA102</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EA2E5</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1k_pot</value>
+      <footprint>lib_fp:pot_vertical_9mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">652-PTV09A4030FA102</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9E02C7</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.01uf</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CAD11A</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.047uf</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CADBD5</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CD5DE1</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60CE0F3F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>rca</value>
+      <footprint>lib_fp:tht_rca_vertical</footprint>
+      <datasheet> ~</datasheet>
+      <fields>
+        <field name="Sku">490-RCJ-024</field>
+        <field name="Vendor">mouser</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A0AF0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uf</value>
+      <footprint>Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D009CA</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D009D6</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SPDT</value>
+      <footprint>lib_fp:spdt_slide_switch_small_tayda</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Sku">A-659</field>
+        <field name="Vendor">tayda</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D009EC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100uf</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D046F1</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM317_3PinPackage">
+      <aliases>
+        <alias>AZ1117-ADJ</alias>
+      </aliases>
+      <description>1A 35V Adjustable Linear Regulator, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm317.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317_3PinPackage</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lib_sym" part="AD8072">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA1678</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+        <alias>LT6234</alias>
+        <alias>OPA2356xxD</alias>
+        <alias>OPA2356xxDGK</alias>
+        <alias>OPA1612AxD</alias>
+        <alias>MC33172</alias>
+        <alias>OPA1602</alias>
+        <alias>TLV2372</alias>
+        <alias>LT6237</alias>
+        <alias>OPA2277</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8072</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/app/extensions/Library/Symbols/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/app/extensions/Library/Symbols/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/app/extensions/Library/Symbols/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/app/extensions/Library/Symbols/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="lib_sym">
+      <uri>/home/timcaldwell/projects/_rupture_/hardware/lib_sim/lib_sym.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C8-Pad2)">
+      <node ref="RV4" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="2" name="video_out">
+      <node ref="RV3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW8" pin="1"/>
+    </net>
+    <net code="3" name="Net-(RV4-Pad3)">
+      <node ref="RV4" pin="3"/>
+    </net>
+    <net code="4" name="+VDC">
+      <node ref="U2" pin="8"/>
+      <node ref="C8" pin="1"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="5" name="Net-(RV3-Pad1)">
+      <node ref="RV4" pin="2"/>
+      <node ref="RV3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(RV3-Pad3)">
+      <node ref="RV3" pin="3"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="SW7" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="9" name="Net-(SW5-Pad1)">
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(SW6-Pad1)">
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="SW6" pin="3"/>
+    </net>
+    <net code="12" name="Net-(RV2-Pad3)">
+      <node ref="RV2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(RV1-Pad1)">
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad1)">
+      <node ref="SW8" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="17" name="video_in">
+      <node ref="SW8" pin="3"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="SW7" pin="3"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="18" name="cap">
+      <node ref="SW4" pin="2"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="SW9" pin="3"/>
+    </net>
+    <net code="20" name="Net-(R1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad1)">
+      <node ref="SW9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="22" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C7" pin="2"/>
+    </net>
+    <net code="24" name="Net-(SW2-Pad1)">
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="25" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="26" name="Net-(SW4-Pad1)">
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C3-Pad1)">
+      <node ref="SW3" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="SW4" pin="3"/>
+    </net>
+  </nets>
+</export>
