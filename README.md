@@ -15,7 +15,7 @@ this circuit takes any composite video signal as input and destroys the signal i
 
 ## demo video
 
-[video coming soon]
+[![image](https://user-images.githubusercontent.com/12017938/156677846-15a28025-9c6a-4628-a28b-1f68a9dce7b4.png)](https://videos.scanlines.xyz/w/6zXGHYLE1xnu9w47Xd3Zn1)
 
 ## background
 
