@@ -103,9 +103,13 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 - next i would do diodes, transistors and ic's - taking care that these are placed in the right direction (using a ic socket can be useful)
 - finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stablity
 
-## slightly more specific assembly advice
+## specific assembly advice
 
-[coming soon]
+- start with the ic if you going for smd part - remember to orient it correctly (follow arrow on silkscreen) - can check connection with multimeter by using the dip pads
+- next place resistors and capicators - can also do regulator...
+- now place the switches - make sure enough solder is on the outer pins for structural stability
+- barrel and rca jacks next
+- and finally the pots
   
 </details>
   
