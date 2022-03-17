@@ -119,6 +119,24 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 
 ![image](https://user-images.githubusercontent.com/12017938/156061444-3c6de3a7-d6e1-41e5-bc37-5e18eaab0bf1.png)
 
+### setup
+  
+start by connecting a composite video source to the IN rca jack and a composite video display to the OUT rca jack (use a crt tv for best results) - now without the power plugged in you should be able to see your clean video source on the display by changing the ROUTER switches to both UP or both DOWN
+  
+### router
+  
+the video input and video output signals can be connected to the effect circuit in 4 different ways - this is because the left router switch will connect the IN signal to the TOP/BOTTOM of the effect circuit, and the right router switch will connect the OUT signal to the TOP/BOTTOM - without power TOP-TOP and BOTTOM-BOTTOM acts as straight signal pass-through. with power these will give different effects.
+  
+### regulator
+  
+the REGULATOR switch next to the power jack selects whether the power line is passed through a ~7v voltage regulator -> if you are powering your circuit with 9-12v then you must have this switched on (RIGHT) to avoid damaging your ic. if you are powering with 5v then it can be bypassed by switching to the left, although it wont hurt to still have it on - just changes the effects slightly in some places.
+  
+### glitch controls
+  
+the 4 knobs and 6 switches will control the glitch effects when the power is connected. the default position is all knobs rotated anti-clockwise and all glitch switches set to UP. in general i would start by moving the left most knob first and working towards the right most - same with the glitch switches.
+  
+ROUTER positions UP-UP, DOWN-DOWN and DOWN-UP all produce quite interesting and different glitches on a crt screen. UP-DOWN for the most part does little more than a few abstract lines.
+  
 </details>
 
 ### more info
