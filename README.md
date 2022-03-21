@@ -53,6 +53,12 @@ i try to source all the parts i can from either:
 
 take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to see where i am sourcing each part from
 
+## omitting parting
+  
+if you know you will only power _rupture_ with a 5v supply then the __regulator__ part of the circuit (c7, c8, r1, r2, u1, sw9) can be omitted - just connect the middle and left pins on the sw9 footprint with a resistor leg to permanently select 5v power by-pass.
+  
+also the values of capicitors on the glitch switches (c1-6) can be customised - i find smaller values are more interesting than larger ones.
+  
 ## import into tayda
 
 - go to the [tayda quick order](https://www.taydaelectronics.com/quick-order/) and in bottom corner choose _add from file_
