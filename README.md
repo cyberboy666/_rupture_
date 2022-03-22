@@ -15,7 +15,7 @@ this circuit takes any composite video signal as input and destroys the signal i
 
 ## demo video
 
-[video coming soon]
+[![image](https://user-images.githubusercontent.com/12017938/156677846-15a28025-9c6a-4628-a28b-1f68a9dce7b4.png)](https://videos.scanlines.xyz/w/6zXGHYLE1xnu9w47Xd3Zn1)
 
 ## background
 
@@ -53,6 +53,12 @@ i try to source all the parts i can from either:
 
 take a look at the [full_bom](/hardware/bom/full_bom.csv) for this project to see where i am sourcing each part from
 
+## omitting parting
+  
+if you know you will only power _rupture_ with a 5v supply then the __regulator__ part of the circuit (c7, c8, r1, r2, u1, sw9) can be omitted - just connect the middle and left pins on the sw9 footprint with a resistor leg to permanently select 5v power by-pass.
+  
+also the values of capicitors on the glitch switches (c1-6) can be customised - i find smaller values are more interesting than larger ones.
+  
 ## import into tayda
 
 - go to the [tayda quick order](https://www.taydaelectronics.com/quick-order/) and in bottom corner choose _add from file_
@@ -103,9 +109,13 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
 - next i would do diodes, transistors and ic's - taking care that these are placed in the right direction (using a ic socket can be useful)
 - finally i place the interface parts - rca jacks, power jack, pots and switches - make sure these have lots of solder on for structural stablity
 
-## slightly more specific assembly advice
+## specific assembly advice
 
-[coming soon]
+- start with the ic if you going for smd part - remember to orient it correctly (follow arrow on silkscreen) - can check connection with multimeter by using the dip pads
+- next place resistors and capicators - can also do regulator...
+- now place the switches - make sure enough solder is on the outer pins for structural stability
+- barrel and rca jacks next
+- and finally the pots
   
 </details>
   
@@ -113,8 +123,26 @@ follow this link to view the [interactive BOM](https://htmlpreview.github.io/?ht
   
 <details><summary><b>operating guide</b> - start here if you have purchased an assembled unit</summary>
 
-[coming soon]
+![image](https://user-images.githubusercontent.com/12017938/156061444-3c6de3a7-d6e1-41e5-bc37-5e18eaab0bf1.png)
 
+### setup
+  
+start by connecting a composite video source to the IN rca jack and a composite video display to the OUT rca jack (use a crt tv for best results) - now without the power plugged in you should be able to see your clean video source on the display by changing the ROUTER switches to both UP or both DOWN
+  
+### router
+  
+the video input and video output signals can be connected to the effect circuit in 4 different ways - this is because the left router switch will connect the IN signal to the TOP/BOTTOM of the effect circuit, and the right router switch will connect the OUT signal to the TOP/BOTTOM - without power TOP-TOP and BOTTOM-BOTTOM acts as straight signal pass-through. with power these will give different effects.
+  
+### regulator
+  
+the REGULATOR switch next to the power jack selects whether the power line is passed through a ~7v voltage regulator -> if you are powering your circuit with 9-12v then you must have this switched on (RIGHT) to avoid damaging your ic. if you are powering with 5v then it can be bypassed by switching to the left, although it wont hurt to still have it on - just changes the effects slightly in some places.
+  
+### glitch controls
+  
+the 4 knobs and 6 switches will control the glitch effects when the power is connected. the default position is all knobs rotated anti-clockwise and all glitch switches set to UP. in general i would start by moving the left most knob first and working towards the right most - same with the glitch switches.
+  
+ROUTER positions UP-UP, DOWN-DOWN and DOWN-UP all produce quite interesting and different glitches on a crt screen. UP-DOWN for the most part does little more than a few abstract lines.
+  
 </details>
 
 ### more info
@@ -146,7 +174,7 @@ Ask any questions or start discussions related to this project on the [scanlines
 You can contact me directly at tim (at) cyberboy666 (dot) com 
 Please get in touch if you are interested in hosting a workshop !
 
-![image](https://user-images.githubusercontent.com/12017938/152463166-0fea052b-1eed-4f63-a59d-55c360bfea76.png)
+![image](https://user-images.githubusercontent.com/12017938/156065418-201cd215-828a-4883-a828-2e82401d451e.png)
 
 
 thanks to Karl Klomp for inpiring me and so many others, to Bastien Lavaud for circuit advice, always. To Ben Caldwell for project advice. To everyone who has or will contribute ♥♥♥
