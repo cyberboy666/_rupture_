@@ -1,4 +1,3 @@
-sku,qty,ref,val
+sku,qty,ref,val,vendor
 490-RCJ-024,2,J1 J2 ,rca,mouser
-652-PTV09A-4025FB102,4,RV1 RV2 RV3 RV4 ,1k_pot,mouser
 584-AD8072JNZ,1,U2 ,AD8072,mouser
