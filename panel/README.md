@@ -63,6 +63,15 @@ M3 nut x4 | [aliexpress](https://www.aliexpress.com/item/1005007502691265.html?p
 m3-12mm standoff x4 (front) | [aliexpress](https://www.aliexpress.com/item/1005003086579258.html?pdp_ext_f=%7B"sku_id":"12000023995222163"%7D)
 m3-8mm screw x4 | [aliexpress](https://www.aliexpress.com/item/1005002364189187.html?pdp_ext_f=%7B%22sku_id%22:%2212000020354274900%22%7D)
 
+## eurorack power jack placement
+
+many underscores circuits take 5v from a [horizontal mounted dc barrel jack](https://www.taydaelectronics.com/dc-power-jack-2-1mm-barrel-type-pcb-mount.html) which is good for standalone circuits powered from the side. however for eurorack mounted circuits it can be easier to plug in power from behind. in this case we can use a [vertical dc socket](https://www.taydaelectronics.com/dc-power-jack-2-1mm-round-type-panel-mount-1.html) instead. for these sockets the longer pin is GND which goes closest to the edge of pcb.
+
+![Screenshot from 2025-04-29 11-19-55](https://github.com/user-attachments/assets/82d0b8c7-bea6-45b9-add2-a17368e392b7)
+
+![image](https://github.com/user-attachments/assets/59a664b5-bc0c-46ae-96ac-6fa047308fff)
+
+
 ## enclosure assembling
 
 these enclosures are assemlbed by creating a stack of front-panel -> circuit -> back-panel using the screws and standoffs. where the front standoffs go between front panel and pcb and back standoff go between back panel and pcb. the m3 hex holds it together from the bottom.
